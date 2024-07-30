@@ -15,12 +15,14 @@
 
 /* navbar styles */
 .navbar {
+  max-width: 1044px;
   justify-content: space-between;
-  margin: 47px 157px;
+  margin: 47px auto;
+  align-items: center;
 }
 
 .nav-title {
-  font-size: 29px;
+  font-size: 1.8rem;
   font-weight: 800;
   color: #E6533C;
 }
@@ -46,4 +48,26 @@
   background-color: #E6533C;
   padding: 7px 19px;
   border-radius: 32px;
+}
+
+.nav-bar-icon {
+  color: white;
+}
+
+
+@media screen and (max-width: 576px) {
+
+  /* navbar responsive */
+  .navbar {
+    max-width: 353px;
+  }
+
+  .navbar .nav-items {
+    display: none;
+    color: white;
+  }
+
+  .nav-bar-icon {
+    display: block;
+  }
 }
