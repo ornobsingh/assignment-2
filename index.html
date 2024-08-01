@@ -61,7 +61,8 @@
   <main>
     <section class="habit-container">
       <h2 class="section-title text-white text-center">Change Your Habits</h2>
-      <p class="text-white text-center text-secondary">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+      <p class="text-white text-center text-secondary">We believe fitness should be accessible to everyone, everywhere,
+        regardless of income or access to a gym.</p>
       <div class="habit-image-container display-flex">
         <div class="text-white">
           <img src="images/image 3.png" alt="">
@@ -83,17 +84,80 @@
           <h4 class="sub-title">Weight Loss</h4>
           <p class="text-secondary">We believe fitness should be accessible to everyone</p>
         </div>
-        
+
       </div>
     </section>
+
     <section class="ran-container display-flex">
       <div class="ran-contant">
         <h2 class="ran-title">Run an Extra <br> Mile Easily</h2>
-        <p class="ran-description text-secondary">We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. With <br>hundreds of professional workouts.</p>
+        <p class="ran-description text-secondary">We believe fitness should be accessible to everyone, <br> everywhere,
+          regardless of income or access to a gym. With <br>hundreds of professional workouts.</p>
         <button class="ran-btn">Join Now</button>
       </div>
       <div class="ran-img">
         <img src="images/run.jpg" alt="">
+      </div>
+    </section>
+    
+    <section class="bmi-section">
+      <div class="bmi-title-container">
+        <h2 class="bmi-title section-title text-center text-white">BMI Calculator</h2>
+        <p class="bmi-description text-secondary text-center">We believe fitness should be accessible to everyone,
+          everywhere, regardless of income or access to a gym.</p>
+      </div>
+      <div class="bmi-container secondary-bg">
+        <div class="bmi-contant display-flex">
+          <div class="bmi-chart">
+            <table>
+              <h3 class="bmi-chart-title">BMI calculator chart</h3>
+              <thead>
+                <th>BMI</th>
+                <th>Weight Status</th>
+              </thead>
+              <tbody class="text-secondary">
+                <tr>
+                  <td>Below 18.5</td>
+                  <td>Under Weight</td>
+                </tr>
+                <tr>
+                  <td>18.5 - 24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0 - 29.9</td>
+                  <td>Over Weight</td>
+                </tr>
+                <tr>
+                  <td>30.0 - and Above</td>
+                  <td>Obese </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="bmi-Calculate">
+            <h3 class="bmi-Calculate-title">Calculate your BMI</h3>
+            <p class="text-secondary">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <div class="bmi-Calculate-input-container">
+              <input class="bmi-Calculate-item" type="text" name="" id="" placeholder="Height/cm">
+              <input class="bmi-Calculate-item" type="text" name="" id="" placeholder="weight/kg">
+              <input class="bmi-Calculate-item" type="number" name="" id="" placeholder="Age">
+              <select class="bmi-Calculate-item" name="" id="">
+                <option value="" disabled selected>Sex</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+                <option value="">Others</option>
+              </select>
+            </div>
+            <select name="" id="bmi-Calculate-activity">
+              <option value="" disabled selected>Select your activity level</option> 
+              <option value="">Sedentary (Little to no exercise)</option>
+              <option value="">Moderately Active (Exercise 3-5 days a week)</option>
+              <option value="">Very Active (Intense exercise 6-7 days a week)</option>
+            </select> <br>
+            <button class="Calculate-btn">Calculate</button>
+          </div>
+        </div>
       </div>
     </section>
   </main>

@@ -14,15 +14,13 @@ body {
 }
 
 /* share related styles */
-main {
-  max-width: 1044px;
-  margin: 0px auto;
-}
 
 .text-white {
   color: white;
 }
-
+.secondary-bg{
+  background-color: rgb(34, 34, 34);
+}
 .text-center {
   text-align: center;
 }
@@ -219,6 +217,8 @@ header {
 }
 
 .habit-image-container {
+  max-width: 1044px;
+  margin: 0px auto;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
@@ -276,6 +276,80 @@ header {
   object-fit: cover;
   border-radius: 8px;
 }
+/* bmi section style */
+.bmi-container{
+  width: 100%;
+}
+.bmi-title-container{
+  margin-bottom: 73px;
+}
+.bmi-contant{
+  max-width: 1044px;
+  margin: 0px auto;
+  color: white;
+  padding: 43px 0px;
+  justify-content: space-between;
+}
+.bmi-chart table {
+  border-collapse: collapse;
+ 
+}
+td,
+th {
+  border: 1px solid gray;
+  padding: 10px 20px;
+}
+.bmi-chart-title{
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 43px;
+}
+.bmi-Calculate{
+  width: 577px;
+  height: 345px;
+}
+.bmi-Calculate-title{
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+.bmi-Calculate-input-container{
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: repeat(2, 49%);
+  gap: 12px;
+  margin-bottom: 1.5rem;
+}
+.bmi-Calculate-item{
+  padding: 13px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  color: #767676;
+}
+#bmi-Calculate-activity{
+  width: 100%;
+  margin-top: -30px;
+  padding: 13px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  color: #767676;
+}
+.Calculate-btn{
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 28px;
+  padding: 13px 58px;
+  background-color: #E6533C;
+  border-radius: 24px;
+  border: none;
+  color: white;
+}
+
+
+
+
 
 
 
@@ -301,9 +375,10 @@ header {
 
   .hero,
   .habit-image-container,
-  .ran-container {
+  .ran-container,
+  .bmi-contant {
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
   }
 
   .hero-img img {
@@ -327,5 +402,14 @@ header {
   .ran-img img{
     width: 100%;
     height: 100%;
+  }
+  .bmi-Calculate{
+    width: 100%;
+  }
+  .bmi-container{
+    padding: 15px;
+  }
+  .bmi-Calculate-input-container{
+    grid-template-columns: repeat(2, 48%);
   }
 }
