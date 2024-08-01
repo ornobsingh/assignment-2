@@ -8,7 +8,8 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-body{
+
+body {
   background-color: black;
 }
 
@@ -17,32 +18,46 @@ main {
   max-width: 1044px;
   margin: 0px auto;
 }
-.text-white{
+
+.text-white {
   color: white;
 }
-.text-center{
+
+.text-center {
   text-align: center;
 }
+
 main>section {
-  margin-top: 100px;
+  margin-top: 120px;
 }
+
 .section-title {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
+
 .display-flex {
   display: flex;
 }
-.text-secondary{
+
+.text-secondary {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.5);
 }
-.sub-title{
+
+.sub-title {
   font-size: 18px;
   font-weight: bold;
 }
+
 /* navbar styles */
+header {
+  background: linear-gradient(to bottom, #000000,
+      #2d2d2d,
+      #000000);
+}
+
 .navbar {
   max-width: 1044px;
   justify-content: space-between;
@@ -99,16 +114,18 @@ main>section {
   font-size: 4.5rem;
   font-weight: 800;
 }
-.hero-title-contant{
+
+.hero-title-contant {
   line-height: 80px;
 }
-#hero-shape-text{
+
+#hero-shape-text {
   font-family: "Playwrite US Trad", cursive;
   font-weight: 100;
 }
 
 .hero-description {
-  
+
   margin-top: 29px;
   margin-bottom: 29px;
 }
@@ -126,6 +143,7 @@ main>section {
 .hero-download-btn {
   width: 185px;
   height: 44px;
+  background-color: #000000;
   color: white;
   border-radius: 34px;
   border: 1px solid white;
@@ -136,10 +154,12 @@ main>section {
   left: 235px;
   top: -23px;
 }
-.hero-img img{
+
+.hero-img img {
   width: 100%;
   height: 520px;
 }
+
 .hero-card-500 {
   width: 160px;
   height: 81px;
@@ -152,13 +172,16 @@ main>section {
   border-radius: 5px;
   background-color: rgba(48, 48, 48, 0.54);
 }
-.hero-card-500 h2{
+
+.hero-card-500 h2 {
   font-size: 2rem;
 }
-.hero-card-500 p{
+
+.hero-card-500 p {
   font-size: 0.8rem;
   color: rgba(239, 237, 232, 0.65);
 }
+
 .hero-card-350 {
   width: 160px;
   height: 81px;
@@ -172,48 +195,87 @@ main>section {
   border-radius: 5px;
   background-color: rgba(48, 48, 48, 0.54);
 }
-.card-icon{
+
+.card-icon {
   width: 33px;
   height: 33px;
   background-color: #E6533C;
   border-radius: 50%;
   margin-right: 10px;
 }
-.card-contant h2{
+
+.card-contant h2 {
   font-size: 2rem;
 }
-.card-contant p{
+
+.card-contant p {
   color: rgba(239, 237, 232, 0.65);
 }
 
 /* habit section style */
-.habit-conatiner{
+.habit-conatiner {
   max-width: 1044px;
-  margin: 0px auto; 
+  margin: 0px auto;
 }
-.habit-image-container{
+
+.habit-image-container {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
 }
-.habit-image-container img{
+
+.habit-image-container img {
   border-radius: 50%;
 }
-.habit-image-container h4{
+
+.habit-image-container h4 {
   margin-top: 25px;
 }
-.habit-image-container h4 p{
+
+.habit-image-container h4 p {
   text-align: center;
-  
 }
 
+/* ran section style */
+.ran-container {
+  max-width: 1044px;
+  margin: 0px auto;
+  background: rgb(34, 34, 34);
+  justify-content: space-between;
+  padding: 35px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
 
+.ran-contant {
+  color: white;
+}
 
+.ran-title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.ran-description{
+  margin-top: 14px;
+  margin-bottom: 34px;
+}
+.ran-btn {
+  padding: 14px 70px;
+  background-color: #E6533C;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 500;
+}
 
-
-
-
-
+.ran-img img{
+  width: 366px;
+  height: 312px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 
 
 
@@ -223,7 +285,11 @@ main>section {
 
 @media screen and (max-width: 576px) {
 
-  /* navbar responsive */
+  body{
+    max-width: 353px;
+    margin: 0px auto;
+  
+  }
   .navbar .nav-items {
     display: none;
     color: white;
@@ -232,24 +298,34 @@ main>section {
   .nav-bar-icon {
     display: block;
   }
-  /* hero section responsive */
+
   .hero,
-  .habit-image-container{
+  .habit-image-container,
+  .ran-container {
     flex-direction: column;
     gap: 30px;
   }
 
-  .hero-img img{
+  .hero-img img {
     margin-top: 50px;
     margin-left: -230px;
   }
-  .hero-card-500{
+
+  .hero-card-500 {
     top: 250px;
     left: -90px;
   }
-  .hero-card-350{
+
+  .hero-card-350 {
     top: 450px;
     left: -200px;
   }
-  
+
+  .ran-btn{
+    padding: 14px 100px;
+  }
+  .ran-img img{
+    width: 100%;
+    height: 100%;
+  }
 }
