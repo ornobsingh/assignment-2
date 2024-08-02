@@ -28,7 +28,7 @@ body {
 }
 
 main>section {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .section-title {
@@ -110,6 +110,7 @@ header {
   max-width: 1044px;
   margin: 0px auto;
   color: white;
+  overflow: hidden;
 }
 
 .hero-text {
@@ -136,8 +137,7 @@ header {
 }
 
 .hero-join-btn {
-  width: 185px;
-  height: 44px;
+  padding: 13px 34px;
   background-color: #E6533C;
   color: white;
   border-radius: 34px;
@@ -146,9 +146,8 @@ header {
 }
 
 .hero-download-btn {
-  width: 185px;
-  height: 44px;
-  background-color: #000000;
+  padding: 13px 34px;
+  background-color: #2d2d2d;
   color: white;
   border-radius: 34px;
   border: 1px solid white;
@@ -161,8 +160,8 @@ header {
 }
 
 .hero-img img {
-  width: 100%;
-  height: 520px;
+  max-width: 100%;
+  height: auto;
 }
 
 .hero-card-500 {
@@ -170,7 +169,6 @@ header {
   height: 81px;
   position: absolute;
   color: white;
-  border: 1px solid red;
   top: 125px;
   left: 206px;
   padding: 10px;
@@ -192,7 +190,6 @@ header {
   height: 81px;
   position: absolute;
   color: white;
-  border: 1px solid green;
   top: 380px;
   left: -75px;
   justify-content: center;
@@ -207,6 +204,8 @@ header {
   background-color: #E6533C;
   border-radius: 50%;
   margin-right: 10px;
+  text-align: center;
+  padding-top: 7px;
 }
 
 .card-contant h2 {
@@ -224,10 +223,14 @@ header {
   margin: 0px auto;
 }
 
+.habit-description {
+  margin-bottom: 30px;
+}
+
 .habit-image-container {
   max-width: 1044px;
   margin: 0px auto;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -617,6 +620,10 @@ footer {
     margin: 0px auto;
   }
 
+  .navbar {
+    padding: 20px;
+  }
+
   .navbar .nav-items {
     display: none;
     color: white;
@@ -626,7 +633,6 @@ footer {
     display: block;
   }
 
-  .hero,
   .habit-image-container,
   .ran-container,
   .bmi-contant,
@@ -636,19 +642,38 @@ footer {
     gap: 50px;
   }
 
+  .hero {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
   .hero-img img {
     margin-top: 50px;
     margin-left: -230px;
   }
 
   .hero-card-500 {
-    top: 250px;
+    top: 220px;
     left: -90px;
   }
 
   .hero-card-350 {
     top: 450px;
     left: -200px;
+  }
+
+  .hero-download-btn {
+    padding: 13px 25px;
+  }
+
+  .hero-join-btn {
+    padding: 13px 25px;
+  }
+
+  .habit-image-container {
+    margin-top: 20px;
+    padding: 20px;
   }
 
   .ran-container {
