@@ -238,10 +238,12 @@ header {
 
 .habit-image-container h4 {
   margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 .habit-image-container h4 p {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 /* ran section style */
