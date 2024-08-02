@@ -41,6 +41,10 @@ main>section {
   display: flex;
 }
 
+.color-primary {
+  color: #E6533C;
+}
+
 .text-secondary {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.5);
@@ -409,6 +413,142 @@ th {
   border-radius: 5px;
 }
 
+/* membership section style */
+
+.membership {
+  max-width: 1044px;
+  margin: 0px auto;
+  color: white;
+}
+
+.membership-title {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.lavel-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.level-1-membarship {
+  width: 239px;
+  height: 430px;
+  box-shadow: 0 6px 10px 0 #e6533c;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #121212;
+}
+
+.level-1-title {
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: #E6533C;
+  margin-bottom: 24px;
+}
+
+.level-1-price {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.mambarship-package {
+  margin-top: 24px;
+}
+
+.mambarship-package li {
+  margin-bottom: 12px;
+  margin-left: 18px;
+  list-style: circle;
+}
+
+.level-1-btn {
+  font-size: 14px;
+  margin-top: 38px;
+  padding: 13px 53px;
+  border: none;
+  color: white;
+  background-color: #E6533C;
+  border-radius: 24px;
+}
+
+.level-2-membarship {
+  width: 257px;
+  height: 498px;
+  box-shadow: 0 6px 10px 0 #2d2d2d;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #E6533C;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.level-2-title {
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.level-2-price {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.mambarship-package {
+  margin-top: 24px;
+  color: white;
+}
+
+.level-2-btn {
+  font-size: 14px;
+  margin-top: 65px;
+  padding: 13px 58px;
+  border: none;
+  color: white;
+  background-color: #121212;
+  border-radius: 24px;
+}
+
+.level-3-membarship {
+  width: 239px;
+  height: 430px;
+  box-shadow: 0 6px 10px 0 #e6533c;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #121212;
+}
+
+.level-3-title {
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: #E6533C;
+  margin-bottom: 24px;
+}
+
+.level-3-price {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.mambarship-package {
+  margin-top: 24px;
+}
+
+.level-3-btn {
+  font-size: 14px;
+  margin-top: 13px;
+  padding: 13px 53px;
+  border: none;
+  color: white;
+  background-color: #E6533C;
+  border-radius: 24px;
+}
+
 /* footer section style */
 
 footer {
@@ -488,7 +628,8 @@ footer {
   .habit-image-container,
   .ran-container,
   .bmi-contant,
-  .footer-contant {
+  .footer-contant,
+  .lavel-container {
     flex-direction: column;
     gap: 50px;
   }
