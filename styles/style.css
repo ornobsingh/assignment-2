@@ -28,7 +28,7 @@ body {
 }
 
 main>section {
-  margin-top: 100px;
+  margin-top: 88px;
 }
 
 .section-title {
@@ -59,19 +59,19 @@ main>section {
 
 header {
   background: linear-gradient(to bottom, #000000,
-      #2d2d2d,
+      #222222,
       #000000);
 }
 
 .navbar {
   max-width: 1044px;
   justify-content: space-between;
-  margin: 47px auto;
+  margin: 40px auto;
   align-items: center;
 }
 
 .nav-title {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 800;
   color: #E6533C;
 }
@@ -114,7 +114,7 @@ header {
 }
 
 .hero-text {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .hero-title {
@@ -141,13 +141,13 @@ header {
   background-color: #E6533C;
   color: white;
   border-radius: 34px;
-  border: none;
+  border: 1px solid #E6533C;
   margin-right: 11px;
 }
 
 .hero-download-btn {
   padding: 13px 34px;
-  background-color: #2d2d2d;
+  background-color: #202020;
   color: white;
   border-radius: 34px;
   border: 1px solid white;
@@ -173,6 +173,7 @@ header {
   left: 206px;
   padding: 10px;
   border-radius: 5px;
+  backdrop-filter: blur(3px);
   background-color: rgba(48, 48, 48, 0.54);
 }
 
@@ -195,6 +196,7 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  backdrop-filter: blur(3px);
   background-color: rgba(48, 48, 48, 0.54);
 }
 
@@ -224,7 +226,7 @@ header {
 }
 
 .habit-description {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .habit-image-container {
@@ -404,6 +406,7 @@ th {
   display: block;
   object-fit: cover;
   border-radius: 8px;
+  filter: brightness(80%);
 }
 
 .team-contant {
@@ -428,7 +431,11 @@ th {
 
 .membership-title {
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 20pxpx;
+}
+
+.membarship-description {
+  margin-bottom: 3rem;
 }
 
 .lavel-container {
@@ -456,10 +463,6 @@ th {
   font-size: 2.8rem;
   font-weight: bold;
   margin-bottom: 8px;
-}
-
-.mambarship-package {
-  margin-top: 24px;
 }
 
 .mambarship-package li {
@@ -540,10 +543,6 @@ th {
   margin-bottom: 8px;
 }
 
-.mambarship-package {
-  margin-top: 24px;
-}
-
 .level-3-btn {
   font-size: 14px;
   margin-top: 13px;
@@ -571,8 +570,8 @@ footer {
 }
 
 .footer-logo {
-  font-size: 3.6rem;
-  font-weight: 900;
+  font-size: 2.5rem;
+  font-weight: 800;
   color: #E6533C;
   margin-bottom: 20px;
 }
@@ -616,7 +615,6 @@ footer {
 @media screen and (max-width: 576px) {
 
   body {
-    max-width: 353px;
     margin: 0px auto;
   }
 
@@ -648,6 +646,15 @@ footer {
     padding: 20px;
   }
 
+  .hero-text {
+    margin-top: 1rem;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+    line-height: 43px;
+  }
+
   .hero-img img {
     margin-top: 50px;
     margin-left: -230px;
@@ -669,6 +676,10 @@ footer {
 
   .hero-join-btn {
     padding: 13px 25px;
+  }
+
+  .habit-text-title {
+    padding: 20px;
   }
 
   .habit-image-container {
@@ -703,6 +714,10 @@ footer {
 
   .team-img {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .membarship-description {
+    padding: 20px;
   }
 
   footer {
