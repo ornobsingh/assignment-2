@@ -59,7 +59,8 @@ main>section {
 
 header {
   background: linear-gradient(to bottom, #000000,
-      #222222,
+  #131313,
+      #131313,
       #000000);
 }
 
@@ -384,7 +385,7 @@ th {
 }
 
 .team-title {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .team-description {
@@ -661,21 +662,21 @@ footer {
   }
 
   .hero-card-500 {
-    top: 220px;
-    left: -90px;
+    top: 130px;
+    left: -20px;
   }
 
   .hero-card-350 {
-    top: 450px;
+    top: 330px;
     left: -200px;
   }
 
   .hero-download-btn {
-    padding: 13px 25px;
+    padding: 15px 43px;
   }
 
   .hero-join-btn {
-    padding: 13px 25px;
+    padding: 15px 43px;
   }
 
   .habit-text-title {
@@ -683,16 +684,17 @@ footer {
   }
 
   .habit-image-container {
-    margin-top: 20px;
     padding: 20px;
   }
-
+  .team-description{
+    padding: 10px;
+  }
   .ran-container {
     padding: 20px;
   }
 
   .ran-btn {
-    padding: 14px 120px;
+    padding: 14px 159px;
   }
 
   .ran-img img {
