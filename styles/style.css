@@ -58,9 +58,9 @@ main>section {
 /* navbar styles */
 
 header {
-  background: linear-gradient(to bottom, #000000,
-  #131313,
-      #131313,
+  background-image: linear-gradient(to bottom, #000000,
+      #151515,
+      #151515,
       #000000);
 }
 
@@ -686,9 +686,11 @@ footer {
   .habit-image-container {
     padding: 20px;
   }
-  .team-description{
+
+  .team-description {
     padding: 10px;
   }
+
   .ran-container {
     padding: 20px;
   }
