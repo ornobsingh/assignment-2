@@ -12,3 +12,96 @@
 body {
   background-color: black;
 }
+
+/* share related styles */
+
+.text-white {
+  color: white;
+}
+
+.secondary-bg {
+  background-color: rgb(34, 34, 34);
+}
+
+.text-center {
+  text-align: center;
+}
+
+main>section {
+  margin-top: 88px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.color-primary {
+  color: #E6533C;
+}
+
+.text-secondary {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sub-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* navbar styles */
+
+header {
+  background-image: linear-gradient(to bottom,
+      #000000,
+      #151515,
+      #151515,
+      #000000);
+}
+
+.navbar {
+  max-width: 1044px;
+  justify-content: space-between;
+  margin: 40px auto;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #E6533C;
+}
+
+.nav-items {
+  padding: 9px 3px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 32px;
+}
+
+.navbar .nav-items li {
+  list-style: none;
+  font-size: 1rem;
+  margin-right: 39px;
+}
+
+.navbar .nav-items li .item-link {
+  text-decoration: none;
+  color: white;
+}
+
+#item-btn {
+  background-color: #E6533C;
+  padding: 7px 19px;
+  border-radius: 32px;
+}
+
+.nav-bar-icon {
+  display: none;
+  color: white;
+}
