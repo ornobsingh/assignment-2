@@ -106,8 +106,6 @@ header {
   color: white;
 }
 
-
-
 /* Hero section style */
 
 .hero {
@@ -265,7 +263,6 @@ header {
   text-align: center;
   margin-bottom: 20px;
 }
-
 
 /* ran section style */
 
@@ -595,7 +592,6 @@ th {
 .level-3-btn:hover {
   box-shadow: 0 0 10px 0 #e6533c inset, 0 0 10px 2px #E6533C;
 }
-
 
 /* footer section style */
 
