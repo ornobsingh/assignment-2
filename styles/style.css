@@ -402,3 +402,49 @@ th {
 .Calculate-btn:hover {
   box-shadow: 0 0 10px 0 #e6533c inset, 0 0 10px 2px #E6533C;
 }
+
+/* team section style */
+
+.team-container {
+  max-width: 1044px;
+  margin: 0px auto;
+  color: white;
+}
+
+.team-title {
+  margin-top: 100px;
+}
+
+.team-description {
+  margin-bottom: 50px;
+}
+
+.team-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.team-img img {
+  width: 100%;
+  height: 272px;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+  filter: brightness(80%);
+}
+
+.team-contant {
+  position: relative;
+}
+
+.text-overly {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  border-radius: 5px;
+}
