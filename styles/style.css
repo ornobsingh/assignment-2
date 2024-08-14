@@ -265,3 +265,53 @@ header {
   text-align: center;
   margin-bottom: 20px;
 }
+
+
+/* ran section style */
+
+.ran-container {
+  max-width: 1044px;
+  margin: 0px auto;
+  background: rgb(34, 34, 34);
+  justify-content: space-between;
+  padding: 35px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.ran-contant {
+  color: white;
+}
+
+.ran-title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.ran-description {
+  margin-top: 14px;
+  margin-bottom: 34px;
+}
+
+.ran-btn {
+  padding: 14px 70px;
+  background-color: #E6533C;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.ran-btn:hover {
+  box-shadow: 0 0 10px 0 #e6533c inset, 0 0 10px 2px #E6533C;
+}
+
+.ran-img img {
+  width: 366px;
+  height: 312px;
+  object-fit: cover;
+  border-radius: 8px;
+}
