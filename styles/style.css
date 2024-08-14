@@ -105,3 +105,129 @@ header {
   display: none;
   color: white;
 }
+
+
+
+/* Hero section style */
+
+.hero {
+  max-width: 1044px;
+  margin: 0px auto;
+  color: white;
+  overflow: hidden;
+}
+
+.hero-text {
+  margin-top: 30px;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+.hero-title-contant {
+  line-height: 80px;
+}
+
+#hero-shape-text {
+  font-family: "Playwrite US Trad", cursive;
+  font-weight: 100;
+}
+
+.hero-description {
+  margin-top: 29px;
+  margin-bottom: 29px;
+}
+
+.hero-join-btn {
+  padding: 13px 34px;
+  background-color: #E6533C;
+  color: white;
+  border-radius: 34px;
+  border: 1px solid #E6533C;
+  margin-right: 11px;
+  cursor: pointer;
+}
+
+.hero-join-btn:hover {
+  box-shadow: 0 0 10px 0 #e6533c inset, 0 0 10px 2px #E6533C;
+}
+
+.hero-download-btn {
+  padding: 13px 34px;
+  background-color: #202020;
+  color: white;
+  border-radius: 34px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.hero-download-btn:hover {
+  box-shadow: 0 0 10px 0 #e6533c inset, 0 0 10px 2px #E6533C;
+}
+
+.hero-img {
+  position: relative;
+  left: 235px;
+  top: -23px;
+}
+
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-card-500 {
+  width: 160px;
+  height: 81px;
+  position: absolute;
+  color: white;
+  top: 125px;
+  left: 206px;
+  padding: 10px;
+  border-radius: 5px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(48, 48, 48, 0.54);
+}
+
+.hero-card-500 h2 {
+  font-size: 2rem;
+}
+
+.hero-card-500 p {
+  font-size: 0.8rem;
+  color: rgba(239, 237, 232, 0.65);
+}
+
+.hero-card-350 {
+  width: 160px;
+  height: 81px;
+  position: absolute;
+  color: white;
+  top: 380px;
+  left: -75px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(48, 48, 48, 0.54);
+}
+
+.card-icon {
+  width: 33px;
+  height: 33px;
+  background-color: #E6533C;
+  border-radius: 50%;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.card-contant h2 {
+  font-size: 2rem;
+}
+
+.card-contant p {
+  color: rgba(239, 237, 232, 0.65);
+}
